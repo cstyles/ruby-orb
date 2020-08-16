@@ -4,5 +4,5 @@ description: >
   Easily cache and install your Ruby Gems automatically, run parallel Rspec tests, or just install Ruby.
 
 display:
-  source_url: https://github.com/CircleCI-Public/ruby-orb
+  source_url: https://github.com/cstyles/ruby-orb
   home_url: https://www.ruby-lang.org/

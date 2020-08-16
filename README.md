@@ -1,5 +1,5 @@
 # Ruby Orb
-[![CircleCI Build Status](https://circleci.com/gh/CircleCI-Public/ruby-orb.svg?style=shield "CircleCI Build Status")](https://circleci.com/gh/CircleCI-Public/ruby-orb) [![CircleCI Orb Version](https://img.shields.io/badge/endpoint.svg?url=https://badges.circleci.io/orb/circleci/ruby)](https://circleci.com/orbs/registry/orb/circleci/ruby) [![GitHub License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/CircleCI-Public/ruby-orb/master/LICENSE) [![CircleCI Community](https://img.shields.io/badge/community-CircleCI%20Discuss-343434.svg)](https://discuss.circleci.com/c/ecosystem/orbs)
+[![CircleCI Build Status](https://circleci.com/gh/cstyles/ruby-orb.svg?style=shield "CircleCI Build Status")](https://circleci.com/gh/cstyles/ruby-orb) [![CircleCI Orb Version](https://img.shields.io/badge/endpoint.svg?url=https://badges.circleci.io/orb/circleci/ruby)](https://circleci.com/orbs/registry/orb/circleci/ruby) [![GitHub License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/cstyles/ruby-orb/master/LICENSE) [![CircleCI Community](https://img.shields.io/badge/community-CircleCI%20Discuss-343434.svg)](https://discuss.circleci.com/c/ecosystem/orbs)
 
 Easily cache and install your Ruby Gems automatically, run parallel RSpec tests or Rubocop checking, or just install Ruby.
 
@@ -21,7 +21,7 @@ https://github.com/CircleCI-Public/circleci-demo-ruby-rails/
 
 ### How To Contribute
 
-We welcome [issues](https://github.com/CircleCI-Public/ruby-orb/issues) to and [pull requests](https://github.com/CircleCI-Public/ruby-orb/pulls) against this repository!
+We welcome [issues](https://github.com/cstyles/ruby-orb/issues) to and [pull requests](https://github.com/cstyles/ruby-orb/pulls) against this repository!
 
 To publish a new production version:
 * Create a PR to the `Alpha` branch with your changes. This will act as a "staging" branch.
