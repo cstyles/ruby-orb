@@ -25,9 +25,7 @@ steps:
       condition: <<parameters.with-cache>>
       steps:
         - restore_cache:
-            keys:
-              - << parameters.key >>-{{ checksum "./Gemfile.lock"  }}-{{ .Branch }}
-              - << parameters.key >>-{{ checksum "./Gemfile.lock"  }}
+            key: << parameters.key >>
   - run:
       name: Bundle Install <<^parameters.with-cache>>(No Cache)<</parameters.with-cache>>
       command: |
@@ -61,6 +59,6 @@ steps:
       condition: <<parameters.with-cache>>
       steps:
         - save_cache:
-            key: << parameters.key >>-{{ checksum "./Gemfile.lock"  }}-{{ .Branch }}
+            key: << parameters.key >>
             paths:
               - << parameters.path >>
